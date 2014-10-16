@@ -1,17 +1,17 @@
-1. Background
-  * Justification
-  * Goals
-    * Definition of good CSS (*Intra*-Team Goals)
-    * Benefits of good CSS (*Inter*-Team Goals)
-2. Component Class Naming Conventions
-  * Overview
-  * Bootstrap naming convention
-3. Identifying components
-4. Formatting
-5. File structure
-6. Approach
-  * Leverage HTML elements
-  * Deliverable is a set of components
+1. [Background](#boston-interactive-front-end-methodology-and-standards)
+  * [Justification](#justification)
+  * [Goals](#goals)
+    * [Definition of good CSS (*Intra*-Team Goals)](#definition-of-good-css-intra-team-goals)
+    * [Benefits of good CSS (*Inter*-Team Goals)](#benefits-of-good-css-inter-team-goals)
+2. [Component Class Naming Conventions](#component-class-naming-conventions)
+  * [Overview](#overview)
+  * [Bootstrap naming convention](#bootstrap-naming-convention)
+3. [Identifying components](#identifying-components)
+4. [Formatting](#formatting)
+5. [File structure](#file-structure)
+6. [Approach](#approach)
+  * [Leverage HTML elements](#leverage-html-elements-to-their-fullest-extent)
+  * [Deliverable is a set of components](#deliverable-is-set-of-components-never-templates)
 
 # Boston Interactive Front End Methodology and Standards
 
