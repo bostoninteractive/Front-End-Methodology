@@ -5,7 +5,7 @@
     * [Benefits of good CSS (*Inter*-Team Goals)](#benefits-of-good-css-inter-team-goals)
 2. [Component Class Naming Conventions](#component-class-naming-conventions)
   * [Overview](#overview)
-  * [Bootstrap naming convention](#bootstrap-naming-convention)
+  * [Foundation naming convention](#foundation-naming-convention)
 3. [Identifying components](#identifying-components)
 4. [Formatting](#formatting)
 5. [File structure](#file-structure)
@@ -109,23 +109,17 @@ classes:
    .tile__orange
    .tile--body__squeezed
 
-### Bootstrap Naming Convention
-You'll notice that Bootstrap does *not* follow these naming conventions; which
-might seem counterintuitive at first. For example, Bootstrap provides classes
-such as `.btn-primary` and .`btn-warning`. According to our method, those
-should be named `.btn__primary` and `.btn__warning` respectively. In addition,
-Bootstrap's element classes such as `.panel-body` should really be
-`.panel--body`.
+### Foundation Naming Convention
+You'll notice that Foundation does *not* follow these naming conventions; which
+might seem counterintuitive at first. For example, Foundation provides classes
+such as `.text-left` and .`text-right`. According to our method, those
+should be named `.text__left` and `.text__right` respectively.
 
 However, this apparent conflict actually allows us to easily distinguish
 between classes provided by the framework and classes that are project
 specific. When modifying components or adding elements to components provided
 by the framework, the double underscore and double hyphen syntax should still
-be used. So the following classes, which expand on Bootstrap components are
-valid:
-
-    .panel__hero
-    .panel--sub-footer
+be used. 
 
 ## Identifying Components
 One of the challenges of this approach is identifying what parts of a visual
