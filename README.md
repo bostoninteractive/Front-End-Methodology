@@ -12,9 +12,9 @@
 6. [Approach](#approach)
   * [Leverage HTML elements](#leverage-html-elements-to-their-fullest-extent)
   * [Deliverable is a set of components](#deliverable-is-set-of-components-never-templates)
-7. [Foundation Framework](#foundation)
+7. [Foundation Framework](#foundation-framework)
 8. [SASS](#sass) 
-9. [Getting Started](#gettingstarted)
+9. [Getting Started](#getting-started)
 
 # Boston Interactive Front End Methodology and Standards
 
@@ -156,49 +156,39 @@ this process:
 ## File Structure
 
 1. **Base**  
-   The Base stylesheet contains almost exclusively single element selectors;
-   but it could include attribute selectors, pseudo-class selectors, child
-   selectors or sibling selectors. Essentially, a base style says that wherever
-   this element is on the page, it should look like this.
-
+   The Base stylesheet contains almost exclusively single element selectors; but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this.
+   
    Base can also be used for basic styles that don't map well to HTML elements.
    For example, you might have background color classes in this file.
 
-2. **Layout**  
-   Since we always use a framework, the heavy lifting of arranging components
-   is already done for you via the framework's grid system. Use this stylesheet
-   for overrides to the framework. You can also define component or element
-   padding and margins here along with padding and margins for page sections.
-
-3. **Component**  
+2. **Components**  
    This is your main style sheet. It should be readable by a human and heavily
    commented. Each component and its elements and modifiers should be logically
    grouped and seperated by a comment describing the component, how it
    interacts with other components, and how it can be modified.
 
-4. **State**  
-   Describes how our modules or layouts will look when in a particular state.
-   Is it hidden or expanded? Is it active or inactive? They are about
-   describing how a module or layout looks on screens that are smaller or
-   bigger. They are also about describing how a module might look in
-   different views like the home page or the inside page.
+3. **Elements**
+   Styles for your HTML elements go here. For example, body and header styles. 
 
-   You can also choose to put rules for your main breakpoints, or specific
-   breakpoints that modify components here.
+4. **Mixins**
+   Mixins allow us to create reuable groups of CSS. This helps us aviod writing repetitive code. In the below example we created a 'border-radius' mixin. 
+    
+    @mixin border-radius($radius) {
+        -webkit-border-radius: $radius;
+           -moz-border-radius: $radius;
+            -ms-border-radius: $radius;
+                border-radius: $radius;
+      }
+ 
+    .box { @include border-radius(10px); }
 
-5. **Theme**  
-   Theme rules are similar to state rules in that they describe how modules
-   or layouts might look. The theme styleshoeet can also contain components
-   that are truely not reusable, but it should be used extremely sparingly in
-   this regard. If you find that you have more than two or three components
-   that fit into this category, you might want to reevaluate with the design
-   and UI teams.
 
-6. **Hotfix**  
-   Placed here as a courtesy for the back-end developer. The back end developer
-   may choose to put fixes here during integration. Rules placed here should be
-   integrated back into the proper style sheet before delivery. **It is
-   unacceptable to deliver a site with rules in this file.**
+5. **Fonts**
+
+6. **Header**
+
+7. **Footer**
+
 
 ## Approach
 
