@@ -12,7 +12,9 @@
 6. [Approach](#approach)
   * [Leverage HTML elements](#leverage-html-elements-to-their-fullest-extent)
   * [Deliverable is a set of components](#deliverable-is-set-of-components-never-templates)
-7. [Getting Started](#gettingstarted)
+7. [Foundation Framework](#foundation)
+8. [SASS](#sass) 
+9. [Getting Started](#gettingstarted)
 
 # Boston Interactive Front End Methodology and Standards
 
@@ -222,18 +224,28 @@ This doesn\'t necessarily mean that you won\'t deliver a page of components to
 help the back-end dev get started. But you should never approach the project as
 a set of templates.
 
-See [Identifying Components](LINK). Once components are identified, it helps to
-break them down into elements and then identify how the components and their
-elements can be modified. Sometimes, writing these components, their elements,
-and how they can be modified out in the hierarchical notation of your choice
-helps.
+Once components are identified, it helps to break them down into elements and then identify how the components and their elements can be modified. Sometimes, writing these components, their elements, and how they can be modified out in the hierarchical notation of your choice helps.
+
+
+## Foundation Framework 
+
+Our responsive front-end framework of choice is foundation. 
+https://foundation.zurb.com/sites/docs/index.html
+
+A good place to start when identifying components is the kitchen sink page:
+https://foundation.zurb.com/sites/docs/kitchen-sink.html
+
+## SASS 
+
+For a preprocessor we use SASS. For more information on SASS see: http://sass-lang.com/guide
 
 
 ## Getting Started 
 
-We have boilerplates for both Kentico and Drupal sites. 
+We have boilerplates for both Kentico and Drupal sites, both include the foundation framework and SASS files. https://github.com/bostoninteractive/bi-boilerplate
 
 Kentico - kentico-frontend branch
 Drupal - Master branch Foundation Starter Theme
+
 
 
