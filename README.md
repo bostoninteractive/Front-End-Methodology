@@ -12,6 +12,7 @@
 6. [Approach](#approach)
   * [Leverage HTML elements](#leverage-html-elements-to-their-fullest-extent)
   * [Deliverable is a set of components](#deliverable-is-set-of-components-never-templates)
+7. [Getting Started](#gettingstarted)
 
 # Boston Interactive Front End Methodology and Standards
 
@@ -191,14 +192,7 @@ this process:
    that fit into this category, you might want to reevaluate with the design
    and UI teams.
 
-6. **IE LT 10**  
-   Rules that target IE 8 and 9. If you have more than a few rules here, you
-   probably have some sloppy code elsewhere.
-
-7. **IE LT 9**  
-   Rules that targetr IE 8 exclusively.
-
-8. **Hotfix**  
+6. **Hotfix**  
    Placed here as a courtesy for the back-end developer. The back end developer
    may choose to put fixes here during integration. Rules placed here should be
    integrated back into the proper style sheet before delivery. **It is
@@ -233,4 +227,13 @@ break them down into elements and then identify how the components and their
 elements can be modified. Sometimes, writing these components, their elements,
 and how they can be modified out in the hierarchical notation of your choice
 helps.
+
+
+## Getting Started 
+
+We have boilerplates for both Kentico and Drupal sites. 
+
+Kentico - kentico-frontend branch
+Drupal - Master branch Foundation Starter Theme
+
 
