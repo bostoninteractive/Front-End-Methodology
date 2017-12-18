@@ -83,8 +83,7 @@ sub-goals that will help us achieve that follow:
 ### Overview
 The majority of CSS classes will be used to define components, define elements
 of those components, or to modify those components or their elements. Use
-patterns first proposed by BEM to distinguish between these three type of
-classes:
+patterns first proposed by BEM (Block, Element, Modifier) to distinguish between these three type of classes.  In our case we will use Component instead of Block. 
 
 1. **Component**  
    Name of the component. If component is more than one word long, use a single
