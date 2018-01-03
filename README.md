@@ -249,9 +249,12 @@ The most direct way to get up and running with a SASS compiler is using your ter
 
 Simply cd into your theme directory and run the below commands:  
 
+ 
  npm install
 
+
  bower install
+
 
  npm start
 
