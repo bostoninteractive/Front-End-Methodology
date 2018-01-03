@@ -175,14 +175,18 @@ Each section of the document has it's own partial seperated out to improve devel
    Mixins allow us to create reuable groups of CSS. This helps us aviod writing repetitive code. In the below example we created a 'border-radius' mixin. 
     
     @mixin border-radius($radius) {
+
         -webkit-border-radius: $radius;
            -moz-border-radius: $radius;
             -ms-border-radius: $radius;
                 border-radius: $radius;          
-      }
+    
+    }
  
-    .box { 
+    .box {
+
       @include border-radius(10px); 
+    
     }
 
 
