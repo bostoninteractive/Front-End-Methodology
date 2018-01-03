@@ -154,6 +154,7 @@ this process:
   comments that shouldn't be visible in compiled CSS.
 
 ## File Structure
+Each section of the document has it's own partial seperated out to improve developer experience.
 
 1. **Base**  
    The Base stylesheet contains almost exclusively single element selectors; but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this.
@@ -237,6 +238,18 @@ We have boilerplates for both Kentico and Drupal sites, both include the foundat
 Kentico - kentico-frontend branch
 
 Drupal - Master branch Foundation Starter Theme
+
+The most direct way to get up and running with a SASS compiler is using your terminal. 
+
+Simply cd into your theme directory and run the below commands:  
+
+ npm install
+
+ bower install
+
+ npm start
+
+
 
 
 
