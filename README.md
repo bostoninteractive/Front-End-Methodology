@@ -178,10 +178,12 @@ Each section of the document has it's own partial seperated out to improve devel
         -webkit-border-radius: $radius;
            -moz-border-radius: $radius;
             -ms-border-radius: $radius;
-                border-radius: $radius;
+                border-radius: $radius;          
       }
  
-    .box { @include border-radius(10px); }
+    .box { 
+      @include border-radius(10px); 
+    }
 
 
 5. **Fonts**
