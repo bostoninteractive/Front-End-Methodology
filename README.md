@@ -244,9 +244,13 @@ We have boilerplates for both Kentico and Drupal sites, both include the foundat
 For Kentico Sites:
 
   Use the kentico-frontend branch and copy the 'starter-theme' files to your project
+
   Use the 'kentico-kitchensink' for reference of our coding style and some common components. 
 
+
 For Drupal Sites: 
+
+
   Use the master branch '/Foundation/STARTER' theme
 
 The most direct way to get up and running with a SASS compiler is using your terminal. 
