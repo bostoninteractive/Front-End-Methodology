@@ -241,9 +241,13 @@ For a preprocessor we use SASS. For more information on SASS see: http://sass-la
 
 We have boilerplates for both Kentico and Drupal sites, both include the foundation framework and SASS files. https://github.com/bostoninteractive/bi-boilerplate
 
-Kentico - kentico-frontend branch
+For Kentico Sites:
 
-Drupal - Master branch Foundation Starter Theme
+  Use the kentico-frontend branch and copy the 'starter-theme' files to your project
+  Use the 'kentico-kitchensink' for reference of our coding style and some common components. 
+
+For Drupal Sites: 
+  Use the master branch '/Foundation/STARTER' theme
 
 The most direct way to get up and running with a SASS compiler is using your terminal. 
 
