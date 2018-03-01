@@ -108,7 +108,7 @@ patterns first proposed by BEM (Block, Element, Modifier) to distinguish between
    component elements by appending two underscored to the Component/Element
    combo followed by a description of the modifier. For example:
 
-   .tile__orange
+   .tile__large
    .tile--body__squeezed
 
 ### Foundation Naming Convention
