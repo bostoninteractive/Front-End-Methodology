@@ -251,7 +251,7 @@ For Kentico Sites:
 For Drupal Sites: 
 
 
-  Use the master branch '/Foundation/STARTER' theme
+Use the master branch '/D8_foundation_master/zurb_foundation/STARTER/' theme
 
 The most direct way to get up and running with a SASS compiler is using your terminal. 
 
